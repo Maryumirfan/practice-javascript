@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   *{
+    background-color: black;
+  
+   }
+ 
+ #head{
+    color: white;
+   
+ 
+ }
+ #head2{
+    color: white;
+
+ 
+   
+ }
+ #line{
+ color: white;
+
+ 
+ }
+ #b1{
+    color: black;
+    background-color: white;
+    padding: 10px;
+ 
+ 
+   
+ }
+ #b2{
+    color: white;
+    background-color: rgb(170, 170, 11);
+    padding: 10px;
+ }
+ #b3{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    
+ }
+</style>
+<body>
+
+    <h2 id="head">Javascript Practice</h2>
+    <p id="line">Let's see an example of javascript</p>
+    <button type="button" onclick="document.getElementById('line').innerHTML = 'Here is simple example'" id="b1">Click Here!</button>
+    <h3 id="head2">Let's Turn  the bulb on and off</h3>
+    <button type="button"  onclick="document.getElementById('image').src='ON.png'" id="b2">On</button>
+    <img src="OFF.png" alt="" id="image">
+    <button type="button"  onclick="document.getElementById('image').src='OFF.png'" id="b3">Off</button>
+</body>
+</html>
